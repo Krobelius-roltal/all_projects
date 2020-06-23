@@ -1,0 +1,10 @@
+C:\Users\oshar\source\repos\word_sh\word_sh\bin\Release\word_sh.exe.config
+C:\Users\oshar\source\repos\word_sh\word_sh\bin\Release\word_sh.exe
+C:\Users\oshar\source\repos\word_sh\word_sh\bin\Release\word_sh.pdb
+C:\Users\oshar\source\repos\word_sh\word_sh\obj\Release\word_sh.csprojAssemblyReference.cache
+C:\Users\oshar\source\repos\word_sh\word_sh\obj\Release\word_sh.csproj.ResolveComReference.cache
+C:\Users\oshar\source\repos\word_sh\word_sh\obj\Release\word_sh.Form1.resources
+C:\Users\oshar\source\repos\word_sh\word_sh\obj\Release\word_sh.Properties.Resources.resources
+C:\Users\oshar\source\repos\word_sh\word_sh\obj\Release\word_sh.csproj.GenerateResource.cache
+C:\Users\oshar\source\repos\word_sh\word_sh\obj\Release\word_sh.exe
+C:\Users\oshar\source\repos\word_sh\word_sh\obj\Release\word_sh.pdb

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Справки" msprop:Generator_TableClassName="СправкиDataTable" msprop:Generator_TableVarName="tableСправки" msprop:Generator_RowChangedName="СправкиRowChanged" msprop:Generator_TablePropName="Справки" msprop:Generator_RowDeletingName="СправкиRowDeleting" msprop:Generator_RowChangingName="СправкиRowChanging" msprop:Generator_RowEvHandlerName="СправкиRowChangeEventHandler" msprop:Generator_RowDeletedName="СправкиRowDeleted" msprop:Generator_RowClassName="СправкиRow" msprop:Generator_UserTableName="Справки" msprop:Generator_RowEvArgName="СправкиRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Код_x0020_инспекции_x0020_по_x0020_СОНО" msprop:Generator_ColumnVarNameInTable="columnКод_инспекции_по_СОНО" msprop:Generator_ColumnPropNameInRow="Код_инспекции_по_СОНО" msprop:Generator_ColumnPropNameInTable="Код_инспекции_по_СОНОColumn" msprop:Generator_UserColumnName="Код инспекции по СОНО" type="xs:int" minOccurs="0" />
+              <xs:element name="Название_x0020_инспекции" msprop:Generator_ColumnVarNameInTable="columnНазвание_инспекции" msprop:Generator_ColumnPropNameInRow="Название_инспекции" msprop:Generator_ColumnPropNameInTable="Название_инспекцииColumn" msprop:Generator_UserColumnName="Название инспекции" type="xs:int" minOccurs="0" />
+              <xs:element name="Номер_x0020_справки" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnНомер_справки" msprop:Generator_ColumnPropNameInRow="Номер_справки" msprop:Generator_ColumnPropNameInTable="Номер_справкиColumn" msprop:Generator_UserColumnName="Номер справки" type="xs:int" />
+              <xs:element name="Уникальный_x0020_номер_x0020_выходной_x0020_формы" msprop:Generator_ColumnVarNameInTable="columnУникальный_номер_выходной_формы" msprop:Generator_ColumnPropNameInRow="Уникальный_номер_выходной_формы" msprop:Generator_ColumnPropNameInTable="Уникальный_номер_выходной_формыColumn" msprop:Generator_UserColumnName="Уникальный номер выходной формы" type="xs:int" minOccurs="0" />
+              <xs:element name="Наименование_x0020_плательщика" msprop:Generator_ColumnVarNameInTable="columnНаименование_плательщика" msprop:Generator_ColumnPropNameInRow="Наименование_плательщика" msprop:Generator_ColumnPropNameInTable="Наименование_плательщикаColumn" msprop:Generator_UserColumnName="Наименование плательщика" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ИНН" msprop:Generator_ColumnVarNameInTable="columnИНН" msprop:Generator_ColumnPropNameInRow="ИНН" msprop:Generator_ColumnPropNameInTable="ИННColumn" msprop:Generator_UserColumnName="ИНН" type="xs:int" minOccurs="0" />
+              <xs:element name="КПП" msprop:Generator_ColumnVarNameInTable="columnКПП" msprop:Generator_ColumnPropNameInRow="КПП" msprop:Generator_ColumnPropNameInTable="КППColumn" msprop:Generator_UserColumnName="КПП" type="xs:int" minOccurs="0" />
+              <xs:element name="Дата_x0020_состояния_x0020_КРСБ" msprop:Generator_ColumnVarNameInTable="columnДата_состояния_КРСБ" msprop:Generator_ColumnPropNameInRow="Дата_состояния_КРСБ" msprop:Generator_ColumnPropNameInTable="Дата_состояния_КРСБColumn" msprop:Generator_UserColumnName="Дата состояния КРСБ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Дата_x0020_выдачи_x0020_справки" msprop:Generator_ColumnVarNameInTable="columnДата_выдачи_справки" msprop:Generator_ColumnPropNameInRow="Дата_выдачи_справки" msprop:Generator_ColumnPropNameInTable="Дата_выдачи_справкиColumn" msprop:Generator_UserColumnName="Дата выдачи справки" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Выдал_x0020_инспектор" msprop:Generator_ColumnVarNameInTable="columnВыдал_инспектор" msprop:Generator_ColumnPropNameInRow="Выдал_инспектор" msprop:Generator_ColumnPropNameInTable="Выдал_инспекторColumn" msprop:Generator_UserColumnName="Выдал инспектор" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Подписал" msprop:Generator_ColumnVarNameInTable="columnПодписал" msprop:Generator_ColumnPropNameInRow="Подписал" msprop:Generator_ColumnPropNameInTable="ПодписалColumn" msprop:Generator_UserColumnName="Подписал" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Согласование_x0020_с_x0020_отделом_x0020_недоимки" msprop:Generator_ColumnVarNameInTable="columnСогласование_с_отделом_недоимки" msprop:Generator_ColumnPropNameInRow="Согласование_с_отделом_недоимки" msprop:Generator_ColumnPropNameInTable="Согласование_с_отделом_недоимкиColumn" msprop:Generator_UserColumnName="Согласование с отделом недоимки" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Задолженность" msprop:Generator_ColumnVarNameInTable="columnЗадолженность" msprop:Generator_ColumnPropNameInRow="Задолженность" msprop:Generator_ColumnPropNameInTable="ЗадолженностьColumn" msprop:Generator_UserColumnName="Задолженность" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Справка_x0020_внесена_x0020_в_x0020_базу" msprop:Generator_ColumnVarNameInTable="columnСправка_внесена_в_базу" msprop:Generator_ColumnPropNameInRow="Справка_внесена_в_базу" msprop:Generator_ColumnPropNameInTable="Справка_внесена_в_базуColumn" msprop:Generator_UserColumnName="Справка внесена в базу" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Кто_x0020_внес_x0020_справку" msprop:Generator_ColumnVarNameInTable="columnКто_внес_справку" msprop:Generator_ColumnPropNameInRow="Кто_внес_справку" msprop:Generator_ColumnPropNameInTable="Кто_внес_справкуColumn" msprop:Generator_UserColumnName="Кто внес справку" type="xs:int" minOccurs="0" />
+              <xs:element name="Комментарий_x0020_отдела_x0020_работы_x0020_с_x0020_налогоплательщиками_x0020_и_x0020_СМИ" msprop:Generator_ColumnVarNameInTable="columnКомментарий_отдела_работы_с_налогоплательщиками_и_СМИ" msprop:Generator_ColumnPropNameInRow="Комментарий_отдела_работы_с_налогоплательщиками_и_СМИ" msprop:Generator_ColumnPropNameInTable="Комментарий_отдела_работы_с_налогоплательщиками_и_СМИColumn" msprop:Generator_UserColumnName="Комментарий отдела работы с налогоплательщиками и СМИ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Внес_x0020_комментарий_x0020_1" msprop:Generator_ColumnVarNameInTable="columnВнес_комментарий_1" msprop:Generator_ColumnPropNameInRow="Внес_комментарий_1" msprop:Generator_ColumnPropNameInTable="Внес_комментарий_1Column" msprop:Generator_UserColumnName="Внес комментарий 1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Комментарий_x0020_отдела_x0020_в_x0020_сфере_x0020_оборота_x0020_алк_x0020_и_x0020_таб_x0020_продукции" msprop:Generator_ColumnVarNameInTable="columnКомментарий_отдела_в_сфере_оборота_алк_и_таб_продукции" msprop:Generator_ColumnPropNameInRow="Комментарий_отдела_в_сфере_оборота_алк_и_таб_продукции" msprop:Generator_ColumnPropNameInTable="Комментарий_отдела_в_сфере_оборота_алк_и_таб_продукцииColumn" msprop:Generator_UserColumnName="Комментарий отдела в сфере оборота алк и таб продукции" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Внес_x0020_комментарий_x0020_2" msprop:Generator_ColumnVarNameInTable="columnВнес_комментарий_2" msprop:Generator_ColumnPropNameInRow="Внес_комментарий_2" msprop:Generator_ColumnPropNameInTable="Внес_комментарий_2Column" msprop:Generator_UserColumnName="Внес комментарий 2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Справки" />
+      <xs:field xpath="mstns:Номер_x0020_справки" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
